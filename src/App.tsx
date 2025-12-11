@@ -69,7 +69,11 @@ const App = () => {
             <Route path="/showroom" element={<Showroom />} />
           </Routes>
         </main>
-        <footer className="bg-gray-800 text-center py-4 text-sm text-gray-400">© {new Date().getFullYear()} Izik — Crafted with React & TailwindCSS</footer>
+        <footer className="bg-gray-800 text-center py-4 text-sm text-gray-400">
+          © {new Date().getFullYear()} Izik — <em>rooted in place, guided by direction</em>
+          <br />
+          Built with React & TailwindCSS
+        </footer>
       </div>
   );
 };
