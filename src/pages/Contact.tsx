@@ -225,12 +225,12 @@ export default function Contact() {
       <h3 className="text-white font-semibold mb-3">Follow</h3>
       <div className="flex space-x-5 text-2xl">
         {[
-          { href: "https://linkedin.com/in/izik55", icon: <FaLinkedin />, color: "#2563eb" },
-          { href: "https://twitter.com/@izik_4545", icon: <FaTwitter />, color: "#38bdf8" },
-          { href: "https://instagram.com/izikcharles", icon: <FaInstagram />, color: "#ec4899" },
+          { href: "https://linkedin.com/in/izikcodes", icon: <FaLinkedin />, color: "#2563eb" },
+          { href: "https://twitter.com/@izikcodes", icon: <FaTwitter />, color: "#38bdf8" },
+          { href: "https://instagram.com/izikcodes", icon: <FaInstagram />, color: "#ec4899" },
           { href: "https://wa.me/2348075005248", icon: <FaWhatsapp />, color: "#22c55e" },
-          { href: "https://pinterest.com/izikcharles45", icon: <FaPinterest />, color: "#ef4444" },
-          { href: "https://github.com/izik-dev101", icon: <FaGithub />, color: "#9ca3af" },
+          { href: "https://pinterest.com/izikcodes", icon: <FaPinterest />, color: "#ef4444" },
+          { href: "https://github.com/izikcodes", icon: <FaGithub />, color: "#9ca3af" },
         ].map((social, i) => (
         <motion.a
           key={i}
