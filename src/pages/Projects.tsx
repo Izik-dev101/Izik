@@ -8,14 +8,14 @@ const projects = [
     img: "/images/blog.jpeg",
     type: "project",
     comingSoon: true,
-    link: "http://localhost/dailyblog/index.php",
+    link: "#",
   },
   {
     title: "SCFUK",
     desc: "A donation platform for the Sickle Cell Foundation UK, designed for seamless contributions with responsive layouts and secure payments.",
     img: "/images/scfukhome.jpeg",
     type: "code",
-    link: "https://github.com/izikcodes/scfuk",
+    link: "https://github.com/izikcodes/SCFUK",
   },
   {
     title: "ZEOrbit",
